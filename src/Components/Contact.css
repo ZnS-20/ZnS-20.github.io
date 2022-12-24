@@ -1,0 +1,80 @@
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.form-group{
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid transparent;
+}
+
+.align-left{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#message{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact{
+    background-color: #0f1922;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px;
+    height: 100%;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 5px;
+    border:2px solid #1e1e1e;
+    background-color: #1f2731;
+    color: #FFFFFF;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid gray;
+    color: black;
+    font-style: normal;
+    background-color: white;
+    margin-left: 20px;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+#message{
+    text-align: left;
+    padding: 10px;
+}
+
+.contactHeading{
+    margin-bottom: 40px;
+    color: #6618f8;
+}
+
+.form-name-heading{
+    margin-left: 3px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    #message{
+        margin-top: 10px;
+    }
+}
