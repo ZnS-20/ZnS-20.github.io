@@ -1,12 +1,16 @@
 import Navbar from "./Components/Navbar";
-import Footnote from "./Components/Footnote";
+import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <div className="App">
       {/* <h1>Creating my Portfolio. Hope I can complete this and start freelancing to earn more bucks.</h1> */}
       <Navbar />
-      <Footnote />
+      <div id="div">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }
