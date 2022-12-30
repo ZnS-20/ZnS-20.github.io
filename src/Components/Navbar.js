@@ -1,5 +1,6 @@
 import React from 'react';
 import Resume from './../assets/about.jpg';
+import './Navbar.css';
 
 const Navbar = () => {
     return (<>
