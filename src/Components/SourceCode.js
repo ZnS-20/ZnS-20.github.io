@@ -11,7 +11,9 @@ const SourceCode = () => {
                 </div>
                 <div className='col-md-6 rightSide'>
                     <h1 className='centerHeading'>Source Code</h1>
-                    <p className='centerContent'> Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed necessitatibus quaerat culpa quia ratione quod eius repellat officia voluptate rem exercitationem, quas numquam dignissimos! Cupiditate quae explicabo quo inventore.</p>
+                    <p className='centerContent'>
+                        The Website is insiped by <a id='link' href='https://lokkeestudios.com/' target='_blank' rel="noreferrer">"LOOKEE STUDIOS"</a>. If you want to explore the code of this website you can click on 'Explore Code' button.
+                    </p>
                     <button className='btn btn-primary' id='explorebtn'>Explore Code</button>
                 </div>
             </div>

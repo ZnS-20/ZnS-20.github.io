@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaDiscord, FaGithubSquare } from "react-icons/fa";
+import { FaLinkedinIn, FaGithubSquare } from "react-icons/fa";
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({ childToParents }) => {
     return (
         <div id='footnote' className='text-white bg-dark d-flex justify-content-center'>
             <div className='content-center'>
@@ -12,19 +12,16 @@ const Footer = () => {
                         <span>
                             <ul className="list-unstyled d-flex d-inline-flex justify-content-around">
                                 <li>
-                                    <a className="btn btn-default text-white" href="/">Home</a>
+                                    <a className="btn text-white" href='#project' onClick={() => childToParents('project')}>Project</a>
                                 </li>
                                 <li>
-                                    <a className="btn btn-default text-white" href="/">Project</a>
+                                    <a className="btn text-white" href='#contact' onClick={() => childToParents('contact')}>Contact</a>
                                 </li>
                                 <li>
-                                    <a className="btn btn-default text-white" href="/">Resume</a>
+                                    <a className="btn text-white" href='#about' onClick={() => childToParents('about')}>About</a>
                                 </li>
                                 <li>
-                                    <a className="btn btn-default text-white" href="/">About Me</a>
-                                </li>
-                                <li>
-                                    <a className="btn btn-default text-white" href="/">Contact</a>
+                                    <a className="btn text-white" href='#project' onClick={() => childToParents('project')}>SourceCode</a>
                                 </li>
                             </ul>
                         </span>
@@ -32,8 +29,12 @@ const Footer = () => {
                     <hr></hr>
                 </section>
                 <div className='d-flex justify-content-center'>
-                    <FaDiscord size={30} />
-                    <FaGithubSquare size={30} />
+                    <a href='https://github.com/ZnS-20' target='_blank' rel="noreferrer">
+                        <FaGithubSquare size={30} id='SocialIcons' className='InvertColor' />
+                    </a>
+                    <a href='https://www.linkedin.com/in/mohammad-anas-888579181/' target='_blank' rel="noreferrer">
+                        <FaLinkedinIn size={30} id='SocialIcons' />
+                    </a>
                 </div>
             </div>
         </div>

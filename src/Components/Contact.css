@@ -16,7 +16,7 @@
 
 #message{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 #contact{
@@ -71,6 +71,10 @@ a {
 
 .form-name-heading{
     margin-left: 3px;
+}
+
+.inputForm{
+    margin-top: 150px;
 }
 
 @media (max-width: 768px) { 

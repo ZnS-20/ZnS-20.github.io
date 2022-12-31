@@ -49,7 +49,7 @@ const Contact = () => {
                             </div>
                             <button className="btn btn-default align-left" type="submit" name="button" disabled={(email.replaceAll(/\s/g, '').length === 0
                                 || message.replaceAll(/\s/g, '').length === 0
-                                || name.replaceAll(/\s/g, '').length === 0) ? true : false} onClick={console.log('Clicked')}>
+                                || name.replaceAll(/\s/g, '').length === 0) ? true : false}>
                                 Send a Message
                             </button>
                         </form>

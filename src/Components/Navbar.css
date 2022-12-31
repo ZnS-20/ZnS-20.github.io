@@ -5,6 +5,15 @@
 }
 
 .nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-brand{
     font-weight: 700;
     color: white;
 }
