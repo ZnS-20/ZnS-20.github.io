@@ -3,3 +3,17 @@
     width: 100%;
 }
 
+.legend:hover{
+    height: 20%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0.5;
+}
+
+#to-show {
+    display: none;
+}
+#to-hover:hover > #to-show {
+    display: block; 
+}

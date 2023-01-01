@@ -11,7 +11,7 @@ const Home = ({ childToParents }) => {
                 <h1>Programmer and Developer</h1>
             </div>
             <div className='bottom'>
-                <button className="btn text-white home-btn" href='#project' onClick={() => childToParents('project')}>Explore My Work</button>
+                <a className="btn text-white home-btn" href='#project' onClick={() => childToParents('project')}>Explore My Work</a>
             </div>
         </div>
     )

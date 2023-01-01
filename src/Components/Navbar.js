@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from './../assets/about.jpg';
+import Resume from './../assets/Mohammad_Anas_Resume.pdf';
 import './Navbar.css';
 
 const Navbar = React.memo(({ childToParent }) => {
@@ -17,7 +17,7 @@ const Navbar = React.memo(({ childToParent }) => {
                                 <a className="nav-link" href='#project' onClick={() => childToParent('project')}>Project</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={Resume} download="Resume.jpg" rel='noreferrer' target='_blank'>Resume</a>
+                                <a className="nav-link" href={Resume} download="Resume.pdf" rel='noreferrer' target='_blank'>Resume</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href='#about' onClick={() => childToParent('about')}>About Me</a>
