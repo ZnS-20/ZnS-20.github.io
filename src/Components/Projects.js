@@ -15,16 +15,12 @@ const Projects = () => {
             stopOnHover
             useKeyboardArrows>
             <div>
-                <img src={require('./../assets/about.jpg')} alt='P1' />
+                <img className='carousel' src={require('./../assets/image1.png')} alt='P1' />
                 <p className="legend">Project 1</p>
             </div>
             <div>
-                <img src={require('./../assets/about.jpg')} alt='P2' />
+                <img className='carousel' src={require('./../assets/image2.jpg')} alt='P2' />
                 <p className="legend">Project 2</p>
-            </div>
-            <div>
-                <img src={require('./../assets/about.jpg')} alt='P3' />
-                <p className="legend">Project 3</p>
             </div>
         </Carousel>
     )

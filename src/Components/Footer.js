@@ -21,7 +21,7 @@ const Footer = ({ childToParents }) => {
                                     <a className="btn text-white" href='#about' onClick={() => childToParents('about')}>About</a>
                                 </li>
                                 <li>
-                                    <a className="btn text-white" href='#project' onClick={() => childToParents('project')}>SourceCode</a>
+                                    <a className="btn text-white" href='#sourceCode' onClick={() => childToParents('sourceCode')}>SourceCode</a>
                                 </li>
                             </ul>
                         </span>
