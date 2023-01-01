@@ -11,7 +11,8 @@
 
 .align-left{
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
+    height: fit-content;
 }
 
 #message{
@@ -75,6 +76,10 @@ a {
 
 .inputForm{
     margin-top: 150px;
+}
+
+.message{
+   padding: 0 0 70px 0;
 }
 
 @media (max-width: 768px) { 

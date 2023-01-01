@@ -16,7 +16,7 @@ const Projects = () => {
             useKeyboardArrows>
             <div>
                 <img className='carousel' src={require('./../assets/image1.png')} alt='P1' />
-                <p className='legend'>
+                <div className='legend'>
                     <a href='https://github.com/ZnS-20/Success-Gateway' target='_blank' rel='noreferrer'>
                         <div className='d-flex'><h3>LeetCode and CP Solution</h3></div>
                         <div className='to-hover'>
@@ -25,11 +25,11 @@ const Projects = () => {
                             <div className='d-flex to-show'>Solution of some of the leetcode problems.</div>
                         </div>
                     </a>
-                </p>
+                </div>
             </div>
             <div>
                 <img className='carousel' src={require('./../assets/image2.jpg')} alt='P2' />
-                <p className="legend">
+                <div className="legend">
                     <a href='https://github.com/ZnS-20/Success-Gateway' target='_blank' rel='noreferrer'>
                         <div className='d-flex'><h3>Implementing Blockchain</h3></div>
                         <div className='to-hover'>
@@ -41,7 +41,7 @@ const Projects = () => {
                             <div className='d-flex to-show'>Created a simple Auction application using the concepts of Blockchain.</div>
                         </div>
                     </a>
-                </p>
+                </div>
             </div>
         </Carousel>
     )

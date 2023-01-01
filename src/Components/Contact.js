@@ -1,7 +1,11 @@
 import './Contact.css';
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const form = useRef();
+
     const [email, setEmail] = React.useState('');
     const [name, setName] = React.useState('');
     const [message, setMessage] = React.useState('');
@@ -34,24 +38,32 @@ const Contact = () => {
                     </div>
 
                     <div className="col-md-5">
-                        <form className='inputForm'>
+                        <form className='inputForm' ref={form} onSubmit={(event) => {
+                            event.preventDefault();
+                            emailjs.sendForm('service_xhhifi9', 'template_xn5ei46', form.current, 'GHNXmSWH9dWJzsAk_')
+                                .then((result) => {
+                                    alert('Message Sent Successfully');
+                                    setEmail('');
+                                    setMessage('');
+                                    setName('');
+                                }, (error) => {
+                                    alert('Unable to Sent Email. Please try again later' + error.text);
+                                });
+                        }}>
                             <div className="form-group">
                                 <span className='form-name-heading'>Name</span>
-                                <input type="text" className="form-control" value={name} onChange={setOnChangeName} />
+                                <input name='from_name' type="text" className="form-control" value={name} onChange={setOnChangeName} />
                             </div>
                             <div className="form-group">
                                 <span className='form-name-heading'>Email</span>
-                                <input type="email" className="form-control" value={email} onChange={setOnChangeEmail} />
+                                <input name='from_email' type="email" className="form-control" value={email} onChange={setOnChangeEmail} />
                             </div>
                             <div className="form-group">
                                 <span className='form-name-heading'>Message</span>
-                                <textarea className="form-control" rows="3" value={message} onChange={setOnChangeMessage}></textarea>
+                                <input name='from_message' className="form-control message" rows="3" value={message} onChange={setOnChangeMessage}></input>
                             </div>
-                            <button className="btn btn-default align-left" type="submit" name="button" disabled={(email.replaceAll(/\s/g, '').length === 0
-                                || message.replaceAll(/\s/g, '').length === 0
-                                || name.replaceAll(/\s/g, '').length === 0) ? true : false}>
-                                Send a Message
-                            </button>
+                            <input className='align-left' type='submit' value="Send Message">
+                            </input>
                         </form>
                     </div>
                 </div>

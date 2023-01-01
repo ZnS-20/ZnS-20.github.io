@@ -6,7 +6,7 @@ const SourceCode = () => {
         <div className='container-fluid'>
             <div className='row'>
                 <div className='col-md-6'>
-                    <img src={require('./../assets/about.jpg')}
+                    <img src={require('./../assets/source1.jpg')}
                         alt='MyPhoto' className='image' />
                 </div>
                 <div className='col-md-6 rightSide'>
