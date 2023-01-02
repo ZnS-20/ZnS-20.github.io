@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.a4f8f9fd.css",
+    "main.js": "/my_portfolio/static/js/main.bc224f3a.js",
+    "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/source1.jpg": "/my_portfolio/static/media/source1.cd83b8653dd91d00a5d3.jpg",
+    "static/media/about.jpg": "/my_portfolio/static/media/about.6681cda407bf284c6267.jpg",
+    "static/media/Home.png": "/my_portfolio/static/media/Home.e0f80777e951aee29c50.png",
+    "static/media/image2.jpg": "/my_portfolio/static/media/image2.698c0218e42b691b3452.jpg",
+    "static/media/Mohammad_Anas_Resume.pdf": "/my_portfolio/static/media/Mohammad_Anas_Resume.578dcf9ce36fbd7c7c45.pdf",
+    "static/media/image1.png": "/my_portfolio/static/media/image1.08164a5e44e2d6444063.png",
+    "index.html": "/my_portfolio/index.html",
+    "main.a4f8f9fd.css.map": "/my_portfolio/static/css/main.a4f8f9fd.css.map",
+    "main.bc224f3a.js.map": "/my_portfolio/static/js/main.bc224f3a.js.map",
+    "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4f8f9fd.css",
+    "static/js/main.bc224f3a.js"
+  ]
+}
