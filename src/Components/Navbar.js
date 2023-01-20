@@ -6,7 +6,7 @@ const Navbar = React.memo(({ childToParent }) => {
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light mr-auto sticky-top">
             <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon navbar-inverse"></span>
                 </button>
                 <a className="navbar-brand mr-auto" href="/">Mohammad Anas</a>
