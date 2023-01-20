@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='container-fluid bg-dark'>
             <div className='row'>
-                <div className='col-md-6'>
+                <div className='col-md-6 d-none d-md-block'>
                     <img src={require('./../assets/about.jpg')}
                         alt='MyPhoto' className='image' />
                 </div>

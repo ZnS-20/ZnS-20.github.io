@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-7" id='message'>
+                    <div className="col-md-7 d-none d-sm-block" id='message'>
                         <div className='contactHeading'>
                             <h5>CONTACT</h5>
                         </div>
@@ -50,6 +50,9 @@ const Contact = () => {
                                     alert('Unable to Sent Email. Please try again later' + error.text);
                                 });
                         }}>
+                            <div className='contactHeading d-block d-md-none'>
+                                <h5>CONTACT</h5>
+                            </div>
                             <div className="form-group">
                                 <span className='form-name-heading'>Name</span>
                                 <input name='from_name' type="text" className="form-control" value={name} onChange={setOnChangeName} />

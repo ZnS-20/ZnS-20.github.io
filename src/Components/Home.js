@@ -10,7 +10,7 @@ const Home = ({ childToParents }) => {
             <div className='centered'>
                 <h1>Programmer and Developer</h1>
             </div>
-            <div className='bottom'>
+            <div className='bottom  text-center'>
                 <a className="btn text-white home-btn" href='#project' onClick={() => childToParents('project')}>Explore My Work</a>
             </div>
         </div>

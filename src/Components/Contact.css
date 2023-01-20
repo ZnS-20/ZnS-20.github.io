@@ -86,7 +86,7 @@ a {
     #contact iframe {
         margin-bottom: 15px;
     }
-    #message{
-        margin-top: 10px;
+    .contactHeading{
+        margin-top: -60px;
     }
 }
