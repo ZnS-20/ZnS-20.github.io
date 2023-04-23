@@ -1,21 +1,23 @@
 {
-  "files": {
-    "main.css": "/static/css/main.4cdb60f5.css",
-    "main.js": "/static/js/main.b67f5451.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/source1.jpg": "/static/media/source1.cd83b8653dd91d00a5d3.jpg",
-    "static/media/about.jpg": "/static/media/about.6681cda407bf284c6267.jpg",
-    "static/media/Home.png": "/static/media/Home.e0f80777e951aee29c50.png",
-    "static/media/image2.jpg": "/static/media/image2.698c0218e42b691b3452.jpg",
-    "static/media/Mohammad_Anas_Resume.pdf": "/static/media/Mohammad_Anas_Resume.578dcf9ce36fbd7c7c45.pdf",
-    "static/media/image1.png": "/static/media/image1.08164a5e44e2d6444063.png",
-    "index.html": "/index.html",
-    "main.4cdb60f5.css.map": "/static/css/main.4cdb60f5.css.map",
-    "main.b67f5451.js.map": "/static/js/main.b67f5451.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.4cdb60f5.css",
-    "static/js/main.b67f5451.js"
-  ]
+  "main.css": "/static/css/main.8ec4ce69.chunk.css",
+  "main.js": "/static/js/main.129d7726.chunk.js",
+  "main.js.map": "/static/js/main.129d7726.chunk.js.map",
+  "static/js/1.e276198e.chunk.js": "/static/js/1.e276198e.chunk.js",
+  "static/js/1.e276198e.chunk.js.map": "/static/js/1.e276198e.chunk.js.map",
+  "static/css/2.cd830982.chunk.css": "/static/css/2.cd830982.chunk.css",
+  "static/js/2.d6667061.chunk.js": "/static/js/2.d6667061.chunk.js",
+  "static/js/2.d6667061.chunk.js.map": "/static/js/2.d6667061.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.54ef2140.js",
+  "runtime~main.js.map": "/static/js/runtime~main.54ef2140.js.map",
+  "static/media/Mohammad_Anas_Resume.pdf": "/static/media/Mohammad_Anas_Resume.916c09b3.pdf",
+  "static/media/about.jpg": "/static/media/about.6ae7fd10.jpg",
+  "static/media/source1.jpg": "/static/media/source1.b0150731.jpg",
+  "static/media/image1.png": "/static/media/image1.f0c34243.png",
+  "static/media/image2.jpg": "/static/media/image2.2e61b54c.jpg",
+  "static/media/Home.png": "/static/media/Home.8cbfb9e3.png",
+  "static/css/2.cd830982.chunk.css.map": "/static/css/2.cd830982.chunk.css.map",
+  "static/css/main.8ec4ce69.chunk.css.map": "/static/css/main.8ec4ce69.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.2c41f74865507669b356aec247bea7ed.js": "/precache-manifest.2c41f74865507669b356aec247bea7ed.js",
+  "service-worker.js": "/service-worker.js"
 }
