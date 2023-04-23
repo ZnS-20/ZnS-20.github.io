@@ -14,8 +14,8 @@ const About = () => {
                         <div className='centerHeading'>
                             <h5>ABOUT</h5>
                         </div>
-                        <p className='centerContent'>Hi! I'm Mohammad Anas, an application engineer at Hexaview Technologies.
-                            I am a backend developer who can develop Web Application, create Web Pages, develop  Mobile Applications.
+                        <p className='centerContent'>
+                            Hi! I am Mohammad Anas. I am working as a senior application engineer at Hexaview, where my responsibilities are to manage and create Java-based web applications, create data migration jobs using Talend Open Studios, and train newly hired employees. Apart from Hexaview, I had created websites using HTML/CSS, ReactJS, and mobile applications using React-Native.
                         </p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const Projects = () => {
             <div>
                 <img className='carousel' src={require('./../assets/image1.png')} alt='P1' />
                 <div className='legend'>
-                    <a href='https://github.com/ZnS-20/Success-Gateway' target='_blank' rel='noreferrer'>
+                    <a href='https://github.com/ZnS-20/Success-Gateway' target='_blank' rel="noopener noreferrer">
                         <div className='d-flex'><h3>LeetCode and CP Solution</h3></div>
                         <div className='to-hover'>
                             <div className='d-flex to-show'>
@@ -30,7 +30,7 @@ const Projects = () => {
             <div>
                 <img className='carousel' src={require('./../assets/image2.jpg')} alt='P2' />
                 <div className="legend">
-                    <a href='https://github.com/ZnS-20/Success-Gateway' target='_blank' rel='noreferrer'>
+                    <a href='https://github.com/ZnS-20/Success-Gateway' target='_blank' rel="noopener noreferrer">
                         <div className='d-flex'><h3>Implementing Blockchain</h3></div>
                         <div className='to-hover'>
                             <div className='d-flex to-show'>Tech Stack:

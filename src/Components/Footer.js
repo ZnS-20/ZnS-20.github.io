@@ -29,10 +29,10 @@ const Footer = ({ childToParents }) => {
                     <hr></hr>
                 </section>
                 <div className='d-flex justify-content-center'>
-                    <a href='https://github.com/ZnS-20' target='_blank' rel="noreferrer">
+                    <a href='https://github.com/ZnS-20' target='_blank' rel="noopener noreferrer">
                         <FaGithubSquare size={30} id='SocialIcons' className='InvertColor' />
                     </a>
-                    <a href='https://www.linkedin.com/in/mohammad-anas-888579181/' target='_blank' rel="noreferrer">
+                    <a href='https://www.linkedin.com/in/mohammad-anas-888579181/' target='_blank' rel="noopener noreferrer">
                         <FaLinkedinIn size={30} id='SocialIcons' />
                     </a>
                 </div>

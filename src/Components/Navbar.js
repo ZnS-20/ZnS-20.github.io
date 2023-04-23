@@ -17,7 +17,7 @@ const Navbar = React.memo(({ childToParent }) => {
                                 <a data-toggle="collapse" data-target=".in" className="nav-link" href='#project' onClick={() => childToParent('project')}>Project</a>
                             </li>
                             <li className="nav-item">
-                                <a data-toggle="collapse" data-target=".in" className="nav-link" href={Resume} download="Resume.pdf" rel='noreferrer' target='_blank'>Resume</a>
+                                <a data-toggle="collapse" data-target=".in" className="nav-link" href={Resume} download="Mohammad_Anas_Resume.pdf" rel="noopener noreferrer" target='_blank'>Resume</a>
                             </li>
                             <li className="nav-item">
                                 <a data-toggle="collapse" data-target=".in" className="nav-link" href='#about' onClick={() => childToParent('about')}>About Me</a>

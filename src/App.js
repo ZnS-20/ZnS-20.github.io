@@ -6,6 +6,7 @@ import SourceCode from "./Components/SourceCode";
 import Projects from "./Components/Projects";
 import './App.css';
 import Home from "./Components/Home";
+import React from 'react';
 
 function App() {
   const childToParent = (childdata) => {
@@ -25,26 +26,28 @@ function App() {
   }
 
   return (
-    <div className="App">
-      {/* <h1>Creating my Portfolio. Hope I can complete this and start freelancing to earn more bucks.</h1> */}
-      <Navbar childToParent={childToParent} />
-      <div id='home'>
-        <Home childToParents={childToParents} />
+    <>
+      <div className="App">
+        {/* <h1>Creating my Portfolio. Hope I can complete this and start freelancing to earn more bucks.</h1> */}
+        <Navbar childToParent={childToParent} />
+        <div id='home'>
+          <Home childToParents={childToParents} />
+        </div>
+        <div id='about'>
+          <About />
+        </div>
+        <div id='project'>
+          <Projects />
+        </div>
+        <div id='contact'>
+          <Contact />
+        </div>
+        <div id='sourceCode'>
+          <SourceCode />
+        </div>
+        <Footer childToParents={childToParents} />
       </div>
-      <div id='about'>
-        <About />
-      </div>
-      <div id='project'>
-        <Projects />
-      </div>
-      <div id='contact'>
-        <Contact />
-      </div>
-      <div id='sourceCode'>
-        <SourceCode />
-      </div>
-      <Footer childToParents={childToParents} />
-    </div>
+    </>
   );
 }
 
